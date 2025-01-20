@@ -1,0 +1,233 @@
+/* common style */
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    border-radius: 12px;
+    background-color: orange;
+    padding: 10px 60px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+.main{
+    max-width: 1158px;
+    margin: 0 auto;
+
+}
+.dark-1{
+    color: #202020;
+}
+.dark-2{
+    color:#302828;
+}
+
+
+
+/* navbar style */
+.navbar{
+    max-width: 1160px;
+   
+    margin: 10px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    max-width: 52px;
+    max-height: 62px;
+    padding-top: 12px;
+    padding-right: 11px;
+}
+.logo-name{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.menubar{
+    list-style: none;
+    gap: 2rem;
+}
+.menubar-item{
+    text-decoration: none;
+}
+.menubar-item-1{
+    color: orange;
+}
+.menubar-item-2{
+    color:blue;
+}
+.menubar-item-3{
+    color: #05D4DF;
+}
+.menubar-item-4{
+    color: #5D58EF;
+}
+#bars{
+    display: none;
+}
+/* banner-sections style */
+.banner-section{
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-kid{
+    max-width: 100%;
+}
+.banner-section-name{
+    max-width: 640px;
+}
+.banner-name{
+    max-width: 640px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.Empowering{
+    color: orange;
+}
+.towards-vision{
+    color: blue;
+}
+#Enroll-Now{
+    background-color: black;
+    color: white;
+}
+.btn-primary-1{
+    border-radius: 12px;
+    background-color: orange;
+    padding: 10px 60px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+/* Standard Curriculum styles */
+.Standard-Curriculum{
+    background-image: url(/assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 10px;
+}
+.Standard-Curriculum-title{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.Standard-Curriculum-cards{
+    gap: 28px;
+}
+.Standard-Curriculum-card{
+    text-align: center;
+    border-radius: 18px;   
+}
+.Standard-Curriculum-card-1{
+    background-image: linear-gradient(#55a3c5,#aa7878);
+}
+.Standard-Curriculum-card-2{
+    background-image: linear-gradient(#d4a133,#554c3d);
+}
+.Standard-Curriculum-card-3{
+    background-image: linear-gradient(#6d1ed4,#9585a8);
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.kinder-img{
+    padding-top: 52px;
+}
+.chevron{
+    /* text-align: center;
+    padding: 50px auto; */
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.chevron-1{
+    background-color: orange;
+    padding: 30px;
+    border-radius: 50%;
+}
+.chevron-2{
+    background-color: orange;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.Read-More-1{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #64C8FF;
+}
+.Read-More-2{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #F0AA00;
+    /* padding-bottom: 30px; */
+}
+.Read-More-3{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #8700FF;
+}
+
+
+/* mobile device responsive */
+@media screen and (max-width:576px){
+    .logo-name,.menubar,.btn-primary  {
+        display: none;
+    }
+    #bars{
+        display: flex;
+        width: 50px;
+        height: 50px;
+        padding-right: 16px;
+        padding-top: 20px;
+        align-items: center;
+    }
+    .logo{
+        padding-top: 12px;
+        padding-left: 19px;
+        padding-bottom: 12px;
+    }
+    .navbar{
+        border-bottom: 1px solid orange;
+    }
+    /* banner-section style */
+    .banner-section{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .banner-name{
+        font-size: 2rem;
+    }
+    .banner-section-name{
+       margin-top: 0px;
+    }
+    .banner-subtitle{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .Standard-Curriculum-cards{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .chevron{
+        display: none;
+    }
+    .Standard-Curriculum-title{
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+}

@@ -222,7 +222,7 @@
 }
 .Our-Stories-boxs{
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:  
     " Our-Stories-box-1 Our-Stories-box-1 Our-Stories-box-2 Our-Stories-box-3"
     " Our-Stories-box-1 Our-Stories-box-1 Our-Stories-box-4 Our-Stories-box-5"
     ;
@@ -327,7 +327,7 @@
     background-color: #202020;
     margin: 40px auto;
     margin-bottom: 50px;
-}
+}   
 
 /* /footer style */
 footer{

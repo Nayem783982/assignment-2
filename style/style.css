@@ -132,13 +132,13 @@
     border: none;
 }
 .Standard-Curriculum-card-1{
-    background-image: linear-gradient(#55a3c5,#f8c1c1);
+    background-image: linear-gradient(#55a3c5,#eedede);
 }
 .Standard-Curriculum-card-2{
     background-image: linear-gradient(#d4a133,#f8e3be);
 }
 .Standard-Curriculum-card-3{
-    background-image: linear-gradient(#6d1ed4,#dbc4f7);
+    background-image: linear-gradient(#6d1ed4,#d9cde9);
 }
 
 .title{
@@ -217,7 +217,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    max-width: 1158px;
+    max-width: 1440px;
     margin: 0px auto;
 }
 .Our-Stories-boxs{
@@ -229,7 +229,10 @@
     gap: 20px;  
 }
 .Our-Stories-boxs-gredient{
-    background-image: linear-gradient(#ffffff,#ffffff,#e2d2a9,#d3ae51);
+    background-image: linear-gradient(#ffffff,#ffffff,#afa58b,#bea35d);
+    padding-left: 78px;
+    padding-right: 78px;
+    padding-bottom: 50px;
 }
 .Our-Stories-box-1,.Our-Stories-box-2,.Our-Stories-box-3,.Our-Stories-box-4,.Our-Stories-box-5{
     border: 1px solid black;
@@ -304,41 +307,54 @@
     padding-left: 38px;
 }
 .pic-1 > img{
-    border-radius: 16px;
+    border-top-left-radius:16px ;
+    border-top-right-radius:16px;
     width: 100%;
 }
 .pic-2 > img{
-    border-radius: 16px;
+    border-top-left-radius:16px ;
+    border-top-right-radius:16px;
     width: 100%;
 }
 .pic-3 > img{
-    border-radius: 16px;
+    border-top-left-radius:16px ;
+    border-top-right-radius:16px;
     width: 100%;
 }
 .pic-4 > img{
-    border-radius: 16px;
+    border-top-left-radius:16px ;
+    border-top-right-radius:16px;
     width: 100%;
 }
 .pic-5 > img{
-    border-radius: 16px;
+    border-top-left-radius:16px ;
+    border-top-right-radius:16px;
     width: 100%;
 }
 #View-All{
     background-color: #202020;
     margin: 40px auto;
     margin-bottom: 50px;
-}   
-
+}  
+/* marque */
+.marque{
+    background-color: #3CD8E8;
+    color: #202020;
+    /* margin-bottom: 30px; */
+    /* padding: 20px auto; */
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
 /* /footer style */
 footer{
     background-color: #404747;
 }
 .footer-section {
-    
     justify-content: space-evenly;
     color: white;
     padding: 123px 140px;
-    
 }
 .kid-title{
     font-size: 2rem;
@@ -424,6 +440,10 @@ footer{
         grid-template-columns: repeat(2,1fr);
         padding-right: 20px;
         gap: 10px;
+    }
+    .Our-Stories-boxs-gredient{
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .Our-Stories-box-1{
         display: none;

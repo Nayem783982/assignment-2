@@ -132,13 +132,13 @@
     border: none;
 }
 .Standard-Curriculum-card-1{
-    background-image: linear-gradient(#55a3c5,#eedede);
+    background-image: linear-gradient(#55a3c5,#eedede,#eedede);
 }
 .Standard-Curriculum-card-2{
-    background-image: linear-gradient(#d4a133,#f8e3be);
+    background-image: linear-gradient(#d4a133,#d8ccb7,#f1e8d7);
 }
 .Standard-Curriculum-card-3{
-    background-image: linear-gradient(#6d1ed4,#d9cde9);
+    background-image: linear-gradient(#6d1ed4,#d9cde9,#827d88);
 }
 
 .title{

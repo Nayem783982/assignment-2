@@ -111,7 +111,7 @@
 
 /* Standard Curriculum styles */
 .Standard-Curriculum{
-    background-image: url(/assets/bg.png);
+    background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 10px;
@@ -213,7 +213,7 @@
     grid-area: Our-Stories-box-5;
 }
 .Our-Stories-section{
-    background-image:url(/assets/bg.png);
+    background-image:url(../assets/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
